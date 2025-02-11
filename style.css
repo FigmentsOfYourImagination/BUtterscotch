@@ -1,0 +1,140 @@
+
+.topcontainer, .container{
+    text-align: center;
+        
+}
+.topcontainer{
+    margin-bottom: 5%;
+}
+ .mainnav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+    
+    width: 100%;
+    font-size: 1.25em;
+    position: fixed ;
+ }
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;     
+}
+a:hover{
+    color: #1BB9FF;
+}
+
+.mainpicc{
+    height: 600px;
+    border-radius: 50%;
+    margin-top: 40px;
+       
+}
+h1{
+   color: #1BB9FF;
+    width: fit-content;
+    margin-bottom: 25%;
+    font-family: "Contrail One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+
+}
+
+  
+.header{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px){
+    .mainpicc{
+        height:400px;
+    }
+    
+}
+.middlecontainer{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 50%;
+    margin-left: 25%;
+    column-gap: 25%;
+    margin-bottom: 25px;
+
+}
+.paragraph{
+    text-align: start;
+}
+hr{
+    width: 5%;
+    text-decoration: dashed;
+}
+h2{
+    color: #1BC2FF;
+    text-decoration: underline;
+    color: #0C9AFF;
+    color: #1BC2FF;
+    font-size: 2.75rem;
+}
+h3{
+    text-decoration: underline;
+}
+    
+@media (max-width: 600px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+}
+
+.photocontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+    
+}
+ .flex > img {
+    height: 300px;
+ }
+ 
+.meetcontainer{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.talkto{
+    display: flex;
+    justify-content: center;
+}
+.nounderline{
+    color: black;
+    text-decoration: none;
+}
+.underline > a > .color{
+    color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 10%;
+    background-color: #F7DE36;
+    color: #1BB9FF;
+    background-color: #0094FF;
+}
+
